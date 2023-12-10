@@ -1,0 +1,48 @@
+body {
+    background-color: #3b3b4f;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+      color:white;
+  }
+  
+  em, p, label, legend {
+      color:white;
+  }
+  
+  form {
+    background-color: rgba(50, 40, 90);
+    padding: 1em;
+  }
+  
+  input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    min-height: 25px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+  }
+  
+  select {
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+  
+  .inline {
+  display:inline-block;
+  }
+  
+  input[type="submit"] {
+    border: 1px solid #3b6b8b;
+    border-radius: 10px;
+    padding: 5px;
+  }
